@@ -1,0 +1,60 @@
+.note,
+.note_create {
+  background-color: aqua;
+  min-height: 12rem;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.note_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notesList {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.note_create {
+  background-color: antiquewhite;
+}
+
+textarea {
+  border: none;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.note_icon {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.note_icon:hover {
+  color: red;
+  transform: scale(1.3);
+}
+
+.note_font {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.note_font:hover {
+  transform: scale(1.3);
+}
+
+p {
+  font-size: 1.4rem;
+}

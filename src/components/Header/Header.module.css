@@ -1,0 +1,23 @@
+.header {
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toogle_sun {
+  color: rgb(250, 229, 1);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.toogle_sun:hover {
+  transform: scale(1.5);
+}
+.toogle_moon {
+  color: rgb(30, 37, 44);
+  cursor: pointer;
+  transition: 0.5s;
+}
+.toogle_moon:hover {
+  transform: scale(1.5);
+}

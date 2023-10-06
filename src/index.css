@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Caveat-Bold';
+  font-style: italic;
+  font-weight: 400;
+  src: url('./assets/fonts/Caveat-Bold.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  font-family: 'Caveat-Bold', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+.black_background {
+  background: black;
+}
+
+.color_background {
+  animation: color 9s infinite linear;
+}
+.black_background h1 {
+  color: white;
+}
+
+@keyframes color {
+  0% {
+    background: #33cccc;
+  }
+  20% {
+    background: #33cc36;
+  }
+  40% {
+    background: #b8cc33;
+  }
+  60% {
+    background: #fcca00;
+  }
+  80% {
+    background: #33cc36;
+  }
+  100% {
+    background: #33cccc;
+  }
+}
